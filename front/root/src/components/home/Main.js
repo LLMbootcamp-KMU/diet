@@ -6,9 +6,9 @@ import GNB from "../GNB";
 export default function Main() {
     const [searchText, setSearchText] = useState("");
 
-    const handleInputChange = (event) => {
-        setSearchText(event.target.value);
-    };
+  const handleInputChange = (event) => {
+    setSearchText(event.target.value);
+  };
 
     const handleSubmit = async (event) => {
         event.preventDefault();
@@ -73,9 +73,12 @@ export default function Main() {
                             <div className={styles.gridGroup}>
                                 <div className={styles.relativeGroup}>
                                 </div>
+                  
                             </div>
                             <button type="submit" className={styles.submitButton}>Submit</button>
+                            
                         </form>
+                        
                     </div>
                 </div>
             </div>
