@@ -35,9 +35,9 @@ export default function ProfileForm() {
 
     axios.get('back/api/register', { params: { id: storedId } })
       .then(response => {
-        setRdProtein(parseFloat(response.data.RD_PROTEIN1));
-        setRdCarbo(parseFloat(response.data.RD_CARBO1));
-        setRdFat(parseFloat(response.data.RD_FAT1));
+        setRdProtein(parseFloat(response.data.RD_PROTEIN));
+        setRdCarbo(parseFloat(response.data.RD_CARBO));
+        setRdFat(parseFloat(response.data.RD_FAT));
         console.log(response.data);
       })
       .catch(error => console.error("RD values fetch failed:", error));
