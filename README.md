@@ -9,7 +9,7 @@ LLM을 사용한 식단관리 서비스입니다.
 따라서, 자연어를 처리해주는 LLM을 사용해서, 사용성이 좋고, 직관적인 식단관리 서비스를 만들었습니다.
 
 이곳은 프론트엔드 페이지 입니다. 
-[백엔드 페이지](https://github.com/LLMbootcamp-KMU/dietBack)
+[백엔드 페이지로 이동](https://github.com/LLMbootcamp-KMU/dietBack)
 ## 👯팀소개
 <table>
   <tr>
